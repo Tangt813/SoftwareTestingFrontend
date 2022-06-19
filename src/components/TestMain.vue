@@ -215,7 +215,7 @@
                     var tmp_data = [...outdata]
                     console.log(tmp_data);
                     var file_data = {
-                        method: _this.selected_method,
+                        //method: _this.selected_method,
                         // data: tmp_data
                         data: JSON.stringify(tmp_data)
                     }

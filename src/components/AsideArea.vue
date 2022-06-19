@@ -4,7 +4,7 @@
             <el-menu :uniqueOpened="true" :default-active="$route.path" class="el-menu-vertical-demo"
                 :router="true" background-color="#545c64" text-color="#fff"
                 active-text-color="#ffd04b">
-                <h3 style="color: bisque;">Software Testing</h3>
+                <h3 style="color: white">Software Testing</h3>
                 <el-menu-item index="/triangle">
                     <i class="el-icon-caret-top"></i>
                     <template #title>Triangle</template>
@@ -29,7 +29,7 @@
 
 <script>
     export default {
-        
+
     }
 </script>
 
